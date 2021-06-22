@@ -71,26 +71,6 @@ function addEmployee(){
     })
 }
 
-async function basicQuestions(){
-    await inquirer.prompt([
-        {
-            type: "input", 
-            name: "name",
-            message: "What's your name?"
-        },
-        {
-            type: "input",
-            name: "employeeId",
-            message: "What is your employee ID?",
-        },
-        {
-            type: "input",
-            name: "email",
-            message: "What is your email?",
-        },
-    ])
-}
-
 
 function createEngineer(){
         inquirer.prompt([
