@@ -58,14 +58,14 @@ function addEmployee(){
             ]
         }
     ])
-    .then(function(choices){
-        if(addEmployee.choices=== "Engineer"){
+    .then(function(data){
+        if(data.options=== "Engineer"){
             createEngineer()
         }
-        else if(addEmployee.choices === "Intern"){
+        else if(data.options === "Intern"){
             createIntern();
         }
-        else if(addEmployee.choices === "Finish creating team profile"){
+        else if(data.options === "Finish creating team profile"){
             displayPage();
         }
     })
@@ -93,7 +93,7 @@ function basicQuestions(){
 
 
 function createEngineer(){
-    basicQuestions();
+    basicQuestions()
     inquirer.prompt([
         {
             type: "input", 
