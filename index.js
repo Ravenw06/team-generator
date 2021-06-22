@@ -71,8 +71,8 @@ function addEmployee(){
     })
 }
 
-function basicQuestions(){
-    inquirer.prompt([
+async function basicQuestions(){
+    await inquirer.prompt([
         {
             type: "input", 
             name: "name",
@@ -93,46 +93,74 @@ function basicQuestions(){
 
 
 function createEngineer(){
-    basicQuestions()
-    inquirer.prompt([
-        {
-            type: "input", 
-            name: "gitHub",
-            message: "Engineer's GitHub URL: "
-        }
-    ]).then(function(eng){
-        const engineer = new Engineer(
-            eng.name,
-            eng.employeeId, 
-            eng.email,
-            eng.gitHub
-        )
-        teamProfiles.push(engineer);
-        addEmployee();
-    })
+        inquirer.prompt([
+            {
+                type: "input", 
+                name: "name",
+                message: "What's your name?"
+            },
+            {
+                type: "input",
+                name: "employeeId",
+                message: "What is your employee ID?",
+            },
+            {
+                type: "input",
+                name: "email",
+                message: "What is your email?",
+            },            {
+                type: "input", 
+                name: "gitHub",
+                message: "Engineer's GitHub URL: "
+            }
+        ]).then(function(eng){
+            const engineer = new Engineer(
+                eng.name,
+                eng.employeeId, 
+                eng.email,
+                eng.gitHub
+            )
+            teamProfiles.push(engineer);
+            addEmployee();
+        })
 }
 
 function createIntern(){
-    basicQuestions();
-    inquirer.prompt([
-        {
-            type: "input", 
-            name: "school",
-            message: "School of the intern: "
-        }
-    ]).then(function(int){
-        const intern = new Intern(
-            int.name,
-            int.employeeId, 
-            int.email,
-            int.school
-        )
-        teamProfiles.push(intern);
-        addEmployee();
-    })
+        inquirer.prompt([
+            {
+                type: "input", 
+                name: "name",
+                message: "What's your name?"
+            },
+            {
+                type: "input",
+                name: "employeeId",
+                message: "What is your employee ID?",
+            },
+            {
+                type: "input",
+                name: "email",
+                message: "What is your email?",
+            },
+            {
+                type: "input", 
+                name: "school",
+                message: "School of the intern: "
+            }
+        ]).then(function(int){
+            const intern = new Intern(
+                int.name,
+                int.employeeId, 
+                int.email,
+                int.school
+            )
+            teamProfiles.push(intern);
+            addEmployee();
+        })
 }
 
 function displayPage(){
+    console.log(teamProfiles)
     fs.writeFile("./dist/teamMember.html", creatTeam(teamProfiles),err => {
         if (err){
             console.log(err);
