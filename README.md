@@ -21,7 +21,7 @@
 
   ## Usage
 ![team profile generator - YouTube](https://user-images.githubusercontent.com/78116042/123022962-27a74580-d409-11eb-996b-5ac37b95bbc9.gif)
-![YouTube Full Video](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
+  ## https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong
 
   ## GitHub link
   https://github.com/Ravenw06/team-generator
