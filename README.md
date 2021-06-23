@@ -21,7 +21,7 @@
 
   ## Usage
  
-  [![IMAGE ALT TEXT HERE]( https://img.youtube.com/vi/zgY9xI44Vdc&ab_channel=ManyeeWong/mqdefault.jpg)](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
+  [![youtube video]( https://img.youtube.com/vi/zgY9xI44Vdc&ab_channel=ManyeeWong/0.jpg)](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
 
   ## GitHub link
   https://github.com/Ravenw06/team-generator
