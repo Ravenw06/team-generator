@@ -20,8 +20,7 @@
   Protected by MIT License 
 
   ## Usage
- 
-  [!](https://img.youtube.com/vi/v=zgY9xI44Vdc&ab_channel=ManyeeWong/1.jpg)](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong "Team Profile Generator" )
+  [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/zgY9xI44Vdc&ab_channel=ManyeeWong/0.jpg)](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
 
   ## GitHub link
   https://github.com/Ravenw06/team-generator
