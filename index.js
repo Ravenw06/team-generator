@@ -141,7 +141,6 @@ function createIntern(){
             teamProfiles.push(intern);
             addEmployee();
         })
-        console.log("teamProfiles")
 }
 
 function displayPage(){
