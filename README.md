@@ -20,9 +20,8 @@
   Protected by MIT License 
 
   ## Usage
- 
-  [![youtube video]( https://img.youtube.com/vi/zgY9xI44Vdc&ab_channel=ManyeeWong/0.jpg)](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
-
+[<img src="https://img.youtube.com/vi/zgY9xI44Vdc&ab_channel=ManyeeWong/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
+[<img src="https://img.youtube.com/vi/zgY9xI44Vdc&ab/maxresdefault.jpg" width="50%">](https://www.youtube.com/watch?v=zgY9xI44Vdc&ab_channel=ManyeeWong)
   ## GitHub link
   https://github.com/Ravenw06/team-generator
   ### &copy; 2021 by Raven
